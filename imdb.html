@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./imdb.css"></link>
+    <title>IMDb : Rating, Reviews, and Where to watch?</title>
+    </head>
+<body>
+    <div id="mainblock">
+    <h1>IMDb</h1>
+    <div style="display: block; float: right;">
+        <button id="mode">
+            Dark/Light
+        </button>
+    </div>
+    <div class="topper">    
+    <p><b>
+        This is a simple website for providing information about moviename, length, and year of release for the different movies out there.</b>
+    </p>
+    <p>
+        IMDb can help you:
+    </p>
+    <ul>
+        <li>Jog your memory about a movie, show, or person on the tip of your tongue</li>
+        <li>Find the best movie or show to watch next</li>
+        <li>Empower you to search different movies and details about them</li>
+    </ul>
+    </div>
+    <div class="content">
+        <div class="left">
+           <h2><b>
+               Welcome to the world of MOVIES!!!
+           </b></h2>
+            <div id = "block1" class="blocking">
+                <img class="myurl" id="url1" src="" />
+                <div id="titlename1"></div>
+                <div id="titletype1"></div>
+                <div id="runningtime1"></div>
+                <div id= "year1"></div>
+            </div>
+            <div id = "block2" class="blocking">
+                <img class="myurl" id="url2" src="" />
+                <div id="titlename2"></div>
+                <div id="titletype2"></div>
+                <div id="runningtime2"></div>
+                <div id= "year2"></div>
+            </div>
+            <div id = "block3" class="blocking">
+                <img class="myurl" id="url3" src="" />
+                <div id="titlename3"></div>
+                <div id="titletype3"></div>
+                <div id="runningtime3"></div>
+                <div id= "year3"></div>
+            </div>
+            <div id = "block4" class="blocking">
+                <img class="myurl" id="url4" src="" />
+                <div id="titlename4"></div>
+                <div id="titletype4"></div>
+                <div id="runningtime4"></div>
+                <div id= "year4"></div>
+            </div>
+        </div>
+        <div class="right"><b>
+            Search your Movie for its rating!</b>
+            <form id="form">
+                <input placeholder="Movie,song name" autocomplete=off id="moviename" type="text">
+                <input type="button" id="searchingbutton" value="search">
+            </form>
+            You can try:
+            <ul>
+                <li>Game of Thrones</li>
+                <li>Transformers</li>
+                <li>Baahubali</li>
+                <li>Money Heist</li>
+                <li>Lucifer</li>
+            </ul>
+
+            <div class="credits">
+                <h3>
+                    Unofficial IMDb
+                </h3>
+                A Project By Aryan Gupta
+            </div>
+        </div>
+    </div>
+    <script src="imdb.js"></script>
+</body>
+</html>
