@@ -1,9 +1,8 @@
-#mainblock{
+body{
     padding: 10px;
     background-color: rgb(0, 0, 0);
     border-radius: 2mm;
     color: white;
-    height : 1340px;
 }
 #mode{
     margin-right: 10px;
@@ -61,6 +60,7 @@ h1{
     padding:10px;
     padding-top: 0px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .right{

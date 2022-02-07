@@ -3,14 +3,14 @@ let arr = true;
 function changeeverything()
 {
     if(arr === false){
-        document.querySelector("#mainblock").style.backgroundColor = "black";
-        document.querySelector("#mainblock").style.color = "white";
+        document.querySelector("body").style.backgroundColor = "black";
+        document.querySelector("body").style.color = "white";
         arr = true;
     }
     else
     {
-        document.querySelector("#mainblock").style.backgroundColor = "white";
-        document.querySelector("#mainblock").style.color = "black";
+        document.querySelector("body").style.backgroundColor = "white";
+        document.querySelector("body").style.color = "black";
         arr = false;
     }
 }
